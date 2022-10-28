@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+html, body {
+  height: 100vh;
+  width: 100vw;
+  font-family: Montserrat,Arial, Helvetica, sans-serif;
+	background-color:#f7f7f7;
+  
+}
+header{
+  color: white;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: skyblue;
+  
+}
+.navbar img{
+  margin-top: 12px;
+}
+
+.navlinks {
+  text-align: right;
+  Margin-top: -20px;
+  color: white;
+}
+.navlinks li{
+  margin-right: 250px;
+  display:inline; 
+  margin-right: 30px;
+  padding: 5px;
+  text-align: right;
+  text-decoration: none;
+  left: 50px;
+  color: white;
+}
+.hero img{
+  width: 100%;
+  background-size: cover;
+  height: 500px;
+}
+.profile img{
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  top: -150px;
+  left: 30px;
+}
+.proflie h1{
+  text-align: center;
+}
+.profile, footer{
+    padding: 20px;
+      width:600px;
+    position: relative;
+    margin: auto;
+      border:1px solid #ccc;
+      border-radius:10px;
+      background:white;
+  -webkit-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  -moz-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+}
+
+.title{
+  position: absolute;
+  text-align: center;
+  color: white;
+  bottom: 100px;
+  left: 200px;
+  top: 80px;
+  right: 0px;
+  font-size: 30px;
+}
+footer{
+  background: #333333;
+  color: white;
+  height: 50px;
+}
+footer h4{
+  margin-top: 0px;
+}
